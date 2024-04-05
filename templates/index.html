@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    body {
+      text-align: center;
+    }
+
+    h1 {
+      font-weight: bold;
+    }
+
+    div {
+      margin-top: 20px;
+    }
+
+    img {
+      display: block;
+      margin: 0 auto;
+      max-width: 100%;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Live Streaming</h1>
+  <div>
+    <img src="{{ url_for('video_feed') }}" width="50%" />
+  </div>
+</body>
+
+</html>
